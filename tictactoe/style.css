@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #4d154d;
+    color:white;
+    font-size: 25px;
+    padding: 5px 15px;
+    font-family: 'Roboto', sans-serif;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    margin-top: 50px;
+}
+.Mycontainer{
+    display:grid;
+    grid-template-rows: repeat(3,10vw);
+    /* not in auto or pixels but use vw for reponsiveness */
+    grid-template-columns: repeat(3,10vw);
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 7vw;
+}
+.box:hover{
+    background-color: rgb(252, 199, 252);
+}
+
+.gameInfo{
+    font-family: 'Roboto', sans-serif;
+    padding:20px;
+}
+.gameInfo span{
+    display:block;
+}
+.excited{
+    width:0px;
+    transition: width 1s ease-in-out;
+}
+.bt{
+    border-top: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+.br{
+    border-right: 0;
+}
+.bl{
+    border-left: 0;
+}
