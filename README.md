@@ -1,5 +1,5 @@
-# GameZoneX
-GameZoneX is a fun and exciting mini-games website that offers a variety of games to play. The website includes popular classic games like Snake Game, Tic Tac Toe, Dino Game, and a Card game. Built using HTML, CSS, Bootstrap, and JavaScript, GameZoneX provides an enjoyable gaming experience for users of all ages.
+# FunFusion
+FunFusion is a fun and exciting mini-games website that offers a variety of games to play. The website includes popular classic games like Snake Game, Tic Tac Toe, Dino Game, and a Card game. Built using HTML, CSS, Bootstrap, and JavaScript, GameZoneX provides an enjoyable gaming experience for users of all ages.
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ GameZoneX is built using the following technologies:
 ## Installation
 
 Since GameZoneX is a client-side web application, you can simply access it through your web browser without any installation.
-
+Run the index.html file present in the root directory
 [Visit Website](https://gamezonex.onrender.com/)
 
 ## Usage
