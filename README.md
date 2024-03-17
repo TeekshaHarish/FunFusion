@@ -7,6 +7,7 @@ FunFusion is a fun and exciting mini-games website that offers a variety of game
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
+- [Conrtibution Guidelines](#contribution-guidelines)
 - [Usage](#usage)
 
 ## Games
@@ -54,6 +55,34 @@ GameZoneX is built using the following technologies:
 Since GameZoneX is a client-side web application, you can simply access it through your web browser without any installation.
 Run the index.html file present in the root directory
 [Visit Website](https://gamezonex.onrender.com/)
+
+
+## Contribution Guidelines
+
+Thank you for considering contributing to this project! We welcome contributions from everyone.
+
+Before contributing, please take a moment to review the following guidelines:
+
+1. **Reporting Bugs**: If you encounter a bug, please open an issue and provide as much detail as possible, including steps to reproduce the bug.
+
+2. **Feature Requests**: If you have a feature request, please open an issue and describe the feature you would like to see implemented.
+
+3. **Fork the Repository**: To contribute, fork the repository to your GitHub account.
+
+4. **Create a New Branch**: Create a new branch for your work based on the `main` branch.
+
+5. **Make Changes**: Make your desired changes to the codebase.
+
+6. **Commit Changes**: After making changes, commit them to your branch with clear and descriptive commit messages.
+
+7. **Create a Pull Request**: Once you have made your changes, create a pull request to submit them for review.
+
+8. **Documentation**: If you are contributing documentation, please ensure it follows our documentation style and is clear and informative.
+
+9. **Code Reviews**: All contributions will be reviewed by our team. We may provide feedback or request changes before merging your contribution.
+
+Thank you for helping improve our project! We appreciate your contributions.
+
 
 ## Usage
 
