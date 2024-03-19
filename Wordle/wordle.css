@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family:fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(46, 204, 91);
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.notice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.gameScreen{
+    background-color: rgb(46, 204, 91);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(6,1fr);
+    gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.letterBox{
+    width: 60px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(46, 204, 91);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.key{
+    background-color: white;
+    color: rgb(46, 204, 91);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#clear{
+    grid-area: 2/10/4/11;
+}
+
+#submit{
+    grid-area: 3/8/4/10;
+}
+
+button{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: rgb(46, 204, 91);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.present{
+    background-color: burlywood;
+}
+
+.notPresent{
+    background-color: rgb(58, 53, 53);
+}
+
+.rightPlace{
+    background-color: greenyellow;
+}
+
+@media (max-width:600px) and (min-width:425px){
+    .keyboard{
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    #clear{
+        grid-area: 4/6/5/8;
+    }
+    #submit{
+        grid-area: 4/3/5/5;
+    }
+}
+
+@media (max-width:425px) and (min-width:360px){
+    .keyboard{
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+    #clear{
+        grid-area: 5/5/6/7;
+    }
+    #submit{
+        grid-area: 5/2/6/4;
+    }
+    #c{
+        grid-area: 4/2/5/3;
+    }
+    #b{
+        grid-area: 4/3/5/4;
+    }
+    #v{
+        grid-area: 4/4/5/5;
+    }
+    #n{
+        grid-area: 4/5/5/6;
+    }
+    #m{
+        grid-area: 4/6/5/7;
+    }
+}
+
+@media (max-width:360px){
+    .gameScreen{
+        width: 100%;
+    }
+    .letterBox{
+        width: 50px;
+    }
+    .keyboard{
+        width: 100%;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+    #clear{
+        grid-area: 6/4/7/7;
+    }
+    #submit{
+        grid-area: 6/1/7/4;
+    }
+    #n{
+        grid-area: 5/3/6/4;
+    }
+    #m{
+        grid-area: 5/4/6/5;
+    }
+}
