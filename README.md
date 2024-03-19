@@ -54,7 +54,6 @@ GameZoneX is built using the following technologies:
 
 Since GameZoneX is a client-side web application, you can simply access it through your web browser without any installation.
 Run the index.html file present in the root directory
-[Visit Website](https://gamezonex.onrender.com/)
 
 
 ## Contribution Guidelines
