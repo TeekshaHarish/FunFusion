@@ -59,6 +59,7 @@ Run the index.html file present in the root directory
 ## Contribution Guidelines
 
 Thank you for considering contributing to this project! We welcome contributions from everyone.
+Star the repo if you like it 💫
 
 Before contributing, please take a moment to review the following guidelines:
 
