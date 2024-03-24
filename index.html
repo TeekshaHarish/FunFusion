@@ -7,6 +7,40 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="app_1.css">
     <link rel="icon" type="image/x-icon" href="images/logo2.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <!-- <nav class="navbar">
@@ -19,10 +53,29 @@
       GameZoneX
     </a>
   </nav> -->
-  <nav class="navbar">
-    <img src="../images/logo2.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    <a href="../index.html" class="brand">FunFusion</a>
-</nav>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+        <p>Don't have an account? <a href="#" id="signupLink">Sign Up</a></p>
+    </div>
+
+    <div id="signupContainer" class="container" style="display: none;">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <input type="text" id="newUsername" placeholder="Username" required>
+            <input type="password" id="newPassword" placeholder="Password" required>
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>Already have an account? <a href="#" id="loginLink">Login</a></p>
+    </div>
+    <nav class="navbar">
+        <img src="../images/logo2.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a href="../index.html" class="brand">FunFusion</a>
+    </nav>
     <div class="container herosec">
         <h2 class="text-center mt-4 mb-2">Welcome to FunFusion</h2>
     <div class="row">
