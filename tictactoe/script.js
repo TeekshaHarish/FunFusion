@@ -22,6 +22,34 @@ let win = [
 
 let boxtext = document.getElementsByClassName('boxtext');
 const checkWin = () => {
+    let flag = false;
+    win.forEach(ele => {
+        if (
+            boxtext[ele[0]].innerText === boxtext[ele[1]].innerText &&
+            boxtext[ele[1]].innerText === boxtext[ele[2]].innerText &&
+            boxtext[ele[0]].innerText !== ''
+        ) {
+            gameOver = true;
+            gameOveraudio.play();
+            document.querySelector('.info').innerText = boxtext[ele[0]].innerText + " Won";
+            document.querySelector('.excited').style.width = "200px";
+            flag = true;
+        }
+    });
+    if (!flag) {
+        let count = 0;
+        Array.from(boxtext).forEach(element => {
+            if (element.innerText !== '') count++;
+        });
+        if (count === 9) {
+            gameOver = true;
+            document.querySelector('.info').innerText = "It's a Tie!";
+            document.querySelector('.tie').style.display = "inline"; // Show tie GIF
+        }
+    }
+};
+
+/*const checkWin = () => {
     win.forEach(ele => {
         // also works with box[ele[0]].innerText
         if (boxtext[ele[0]].innerText === boxtext[ele[1]].innerText && boxtext[ele[1]].innerText === boxtext[ele[2]].innerText && boxtext[ele[0]].innerText !== '') {
@@ -31,7 +59,7 @@ const checkWin = () => {
             document.querySelector('.excited').style.width = "200px";
         }
     })
-}
+}*/
 let btn = document.querySelector('#reset');
 btn.addEventListener('click', () => {
     Array.from(boxtext).forEach(ele => {
