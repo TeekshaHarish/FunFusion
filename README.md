@@ -3,12 +3,24 @@ FunFusion is a fun and exciting mini-games website that offers a variety of game
 
 ## Table of Contents
 
-- [Games](#games)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Conrtibution Guidelines](#contribution-guidelines)
-- [Usage](#usage)
+- [FunFusion](#funfusion)
+  - [Table of Contents](#table-of-contents)
+  - [Games](#games)
+    - [Snake Game](#snake-game)
+    - [Tic Tac Toe](#tic-tac-toe)
+    - [Dino Game](#dino-game)
+    - [Card Game](#card-game)
+    - [Hangman Game](#hangman-game)
+    - [Memory Cards Game](#memory-cards-game)
+    - [Word Scramble Game](#word-scramble-game)
+    - [Number Guessing Game](#number-guessing-game)
+    - [Word Guessing Game](#word-guessing-game)
+    - [Rock Paper Scissors Game](#rock-paper-scissors-game)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+  - [Installation](#installation)
+  - [Contribution Guidelines](#contribution-guidelines)
+  - [Usage](#usage)
 
 ## Games
 
@@ -27,6 +39,30 @@ Experience the endless runner fun with the Dino Game. Help the cute dinosaur jum
 ### Card Game
 
 Enjoy a card game that is easy to pick up and play. The Card game offers different variations to keep you entertained. Play against the computer or challenge a friend for some friendly competition.
+
+### Hangman Game
+
+Hangman is the classic word-guessing game. In this game, players try to guess all the letters of a randomly generated word within a given number of tries. There is also a hangman illustration that will progressively appear on the gallows for each incorrect guess.
+
+### Memory Cards Game
+
+Memory Card is a beginner-friendly game. In this game, 12 cards are placed randomly on the screen, and each pair of cards has the same image. The objective of the game is to find all the matching pairs by clicking on the cards.
+
+### Word Scramble Game
+
+Word scramble is an easy word game. In this game, players must unscramble a set of letters to form a word within a given time limit of 30 seconds. And to make the game a little easier, users also get a hint about the word they are trying to guess.
+
+### Number Guessing Game
+
+Number guessing is an easy game for beginners. This game involves the computer or bot selecting a random number that you have to guess correctly. The game provides hints to help you along the way, and you have ten chances to make the correct guess.
+
+### Word Guessing Game
+
+Word guessing is a guessing game for begineers. In this game, the user has to guess all the letters of a randomly generated word within a specified number of tries. The game provides hints to help make the guessing process easier.
+
+### Rock Paper Scissors Game
+
+Rock, Paper, Scissors is a game that’s widely enjoyed by everyone. In this game, you’ll play against a bot or computer, and the rules are straightforward: rock beats scissors, scissors beat paper, and paper beats rock.
 
 ## Features
 
